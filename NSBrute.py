@@ -138,6 +138,7 @@ try:
 			myPrint("Trying Again!","ERROR")
 			if new_zone != 0:
 				new_zone.delete()
+			new_zone.delete()	
 			continue
 
 except KeyboardInterrupt:
